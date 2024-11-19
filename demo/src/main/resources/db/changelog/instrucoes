@@ -13,7 +13,7 @@ Instruções:
 
 5. Crie a tabela locations com as colunas street, city, state e country_id. ok
 
-6. Adicione uma coluna region_id na tabela locations.
+6. Adicione uma coluna region_id na tabela locations. ok
 
 7. Remova o campo city da tabela locations.
 
