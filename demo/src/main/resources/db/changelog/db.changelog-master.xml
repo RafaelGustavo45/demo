@@ -14,4 +14,15 @@
       </createTable>
    </changeSet>
 
+   <changeSet id="2" author="rafael_gustavo_reinert">
+   <createTable tableName="jobs">
+         <column name="job_id" type="int">
+            <constraints primaryKey="true"/>
+         </column>
+         <column name="job_title" type="VARCHAR"/>
+         <column name="max_salary" type="REAL"/>
+         <column name="min_salary" type="REAL"/>
+      </createTable>
+   </changeSet>
+
 </databaseChangeLog>

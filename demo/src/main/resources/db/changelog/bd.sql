@@ -4,5 +4,12 @@ create table countrys
 (
     country_id int primary key AUTOINCREMENT;
     country_name varchar(255);
-    region_id int;
+    region_id int
+)
+
+create table jobs (
+    job_id int primary key AUTOINCREMENT;
+    job_title varchar(255);
+    max_salary real;
+    min_salary real
 )
