@@ -5,9 +5,9 @@ Instruções:
 
 2. Crie a tabela jobs com as colunas job_id, job_title, min_salary, max_salary. ok
 
-3. Crie a tabela job_history com as colunas employee_id, start_date, end_date, job_id e department_id.
+3. Crie a tabela job_history com as colunas employee_id, start_date, end_date, job_id e department_id. ok
 
-4. Altere o nome da tabela countrys para countries.
+4. Altere o nome da tabela countrys para countries. 
 
 5. "Taggeie" a base como versaoestavel.
 

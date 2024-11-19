@@ -39,7 +39,13 @@
                              referencedTableName="jobs"
                              referencedColumnNames="job_id"/>
       </createTable>
+
+      
    </changeSet>
+
+   <changeSet id="rename_countrys_to_countries" author="rafael gustavo reinert">
+        <renameTable oldTableName="countrys" newTableName="countries"/>
+    </changeSet>
 
 
     

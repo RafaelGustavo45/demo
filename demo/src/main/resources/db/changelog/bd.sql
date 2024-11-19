@@ -23,3 +23,5 @@ create table job_history(
     FOREIGN KEY (job_id) REFERENCES jobs(job_id)
     
 )
+
+RENAME TABLE countrys TO countries;
