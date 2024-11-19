@@ -65,6 +65,13 @@
       
    </changeSet>
 
+   <changeSet id="add_region_id_to_locations" author="rafael gustavo reinert">
+        <addColumn tableName="locations">
+            <column name="region_id" type="INT"/>
+        </addColumn>
+    </changeSet>
+
+
 
     
 

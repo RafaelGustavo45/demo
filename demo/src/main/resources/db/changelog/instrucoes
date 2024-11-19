@@ -7,11 +7,11 @@ Instruções:
 
 3. Crie a tabela job_history com as colunas employee_id, start_date, end_date, job_id e department_id. ok
 
-4. Altere o nome da tabela countrys para countries. 
+4. Altere o nome da tabela countrys para countries.  ok
 
-5. "Taggeie" a base como versaoestavel.
+5. "Taggeie" a base como versaoestavel. ok
 
-5. Crie a tabela locations com as colunas street, city, state e country_id.
+5. Crie a tabela locations com as colunas street, city, state e country_id. ok
 
 6. Adicione uma coluna region_id na tabela locations.
 

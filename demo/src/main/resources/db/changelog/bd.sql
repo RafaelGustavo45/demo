@@ -35,3 +35,6 @@ create table locations(
     FOREIGN KEY (country_id) REFERENCES countries(country_id)
     
 )
+
+ALTER TABLE locations
+ADD COLUMN region_id int;
