@@ -47,6 +47,24 @@
         <renameTable oldTableName="countrys" newTableName="countries"/>
     </changeSet>
 
+    <changeSet id="tabela_locations" author="rafael_gustavo_reinert">
+    <createTable tableName="locations">
+         <column name="street" type="VARCHAR">
+           
+         </column>
+         <column name="city" type="VARCHAR"/>
+         <column name="state" type="VARCHAR"/>
+         <column name="state" type="VARCHAR"/>
+         <addForeignKeyConstraint baseTableName="locations"
+                             baseColumnNames="country_id"
+                             constraintName="fk_country_to_contries_country_id"
+                             referencedTableName="countries"
+                             referencedColumnNames="country_id"/>
+      </createTable>
+
+      
+   </changeSet>
+
 
     
 

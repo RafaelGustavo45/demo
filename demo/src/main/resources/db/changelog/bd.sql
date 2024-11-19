@@ -25,3 +25,13 @@ create table job_history(
 )
 
 RENAME TABLE countrys TO countries;
+
+
+create table locations(
+    street VARCHAR(255),
+    city VARCHAR(255),
+    state VARCHAR(255),
+    country_id INT,
+    FOREIGN KEY (country_id) REFERENCES countries(country_id)
+    
+)
