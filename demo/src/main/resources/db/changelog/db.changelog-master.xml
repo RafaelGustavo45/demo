@@ -25,4 +25,23 @@
       </createTable>
    </changeSet>
 
+   <changeSet id="3" author="rafael_gustavo_reinert">
+   <createTable tableName="job_history">
+         <column name="employee_id" type="int">
+            <constraints primaryKey="true"/>
+         </column>
+         <column name="start_date" type="DATE"/>
+         <column name="end_date" type="DATE"/>
+         <column name="departament_id" type="INT"/>
+         <addForeignKeyConstraint baseTableName="job_history"
+                             baseColumnNames="job_id"
+                             constraintName="fk_job_history_job"
+                             referencedTableName="jobs"
+                             referencedColumnNames="job_id"/>
+      </createTable>
+   </changeSet>
+
+
+    
+
 </databaseChangeLog>

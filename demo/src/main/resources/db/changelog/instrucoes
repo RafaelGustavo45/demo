@@ -3,7 +3,7 @@ Versionamento de schema com Liquibase
 Instruções:
 1. Crie a tabela countrys com as colunas country_id, country_name and region_id. ok
 
-2. Crie a tabela jobs com as colunas job_id, job_title, min_salary, max_salary.
+2. Crie a tabela jobs com as colunas job_id, job_title, min_salary, max_salary. ok
 
 3. Crie a tabela job_history com as colunas employee_id, start_date, end_date, job_id e department_id.
 
