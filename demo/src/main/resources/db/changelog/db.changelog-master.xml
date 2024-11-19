@@ -71,16 +71,6 @@
         </addColumn>
     </changeSet>
 
-    <changeSet id="removendo_city" author="rafael gustavo reinert">
-        <addColumn tableName="locations">
-            <column name="region_id" type="INT"/>
-        </addColumn>
-    </changeSet>
-
-    <changeSet id="remove_city_column_from_locations" author="seu_nome">
-        <dropColumn tableName="locations" columnName="city"/>
-    </changeSet>
-
 
 
     

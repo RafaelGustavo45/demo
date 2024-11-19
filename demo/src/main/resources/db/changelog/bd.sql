@@ -38,6 +38,3 @@ create table locations(
 
 ALTER TABLE locations
 ADD COLUMN region_id int;
-
-
-ALTER TABLE locations DROP COLUMN city;
